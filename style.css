@@ -1,0 +1,55 @@
+h1, h2 {
+    color: darkblue;
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+p {
+    background-color: white;
+    padding: 20px;
+    width: 460px;
+    margin: 0 0 0 20px;
+    box-sizing: border-box;
+    border: solid 10px black;
+}
+
+body{
+    width:600px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ ul li a {
+    width: 170px;
+     display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    margin: 0;
+}
+
+ ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ ul li a:active {
+    background-color: cyan;
+}
+
+.aktiv {
+    background-color: darkgrey;
+}
